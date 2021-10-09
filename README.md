@@ -17,7 +17,7 @@ camel.version
 - the proper Camel version to use can be found through spring initializr
 
 ## DemoRoute.java
-The class for Camel router
+The demo class for Camel quartz route
 
 ## src\main\resources\application.properties
 ```
