@@ -28,3 +28,8 @@ The demo class for Camel quartz route
 # MAKING SURE CAMEL CONTEXT IS RUNNING IN STANDALONE SPRING BOOT
 camel.springboot.main-run-controller = true
 ```
+
+# Tips
+
+# concurrency control
+adding "stateful=true" (by default it's false) to make sure the next cron job won't be up if the current one is still running.
