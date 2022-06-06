@@ -1,9 +1,10 @@
 # Demo Camel Quartz with Spring Boot
 
 # to run
-Firstly, to open terminal and making sure JAVA_HOME is set to JDK11 firstly
+Open terminal and make sure set JAVA_HOME to JDK11
 
 Then run below command in terminal
+
 ```
 mvmw spring-boot:run
 ```
